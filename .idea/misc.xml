@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Application Development/Lernsy Projects/Lernsy Apps/AndroidStudio - Nirvana Food Ordering System/NirvanaEatery/app/src/main/res/drawable/card_background.xml" value="0.3345" />
+        <entry key="..\:/Application Development/Lernsy Projects/Lernsy Apps/AndroidStudio - Nirvana Food Ordering System/NirvanaEatery/app/src/main/res/drawable/dark_grey_square_card.xml" value="0.3345" />
+        <entry key="..\:/Application Development/Lernsy Projects/Lernsy Apps/AndroidStudio - Nirvana Food Ordering System/NirvanaEatery/app/src/main/res/drawable/grey_card_background.xml" value="0.3345" />
+        <entry key="..\:/Application Development/Lernsy Projects/Lernsy Apps/AndroidStudio - Nirvana Food Ordering System/NirvanaEatery/app/src/main/res/drawable/grey_square_card.xml" value="0.3345" />
+        <entry key="..\:/Application Development/Lernsy Projects/Lernsy Apps/AndroidStudio - Nirvana Food Ordering System/NirvanaEatery/app/src/main/res/drawable/greyfilled_bottom.xml" value="0.3345" />
+        <entry key="..\:/Application Development/Lernsy Projects/Lernsy Apps/AndroidStudio - Nirvana Food Ordering System/NirvanaEatery/app/src/main/res/drawable/receipt_background.xml" value="0.3345" />
+        <entry key="..\:/Application Development/Lernsy Projects/Lernsy Apps/AndroidStudio - Nirvana Food Ordering System/NirvanaEatery/app/src/main/res/layout/activity_account.xml" value="0.30526315789473685" />
+        <entry key="..\:/Application Development/Lernsy Projects/Lernsy Apps/AndroidStudio - Nirvana Food Ordering System/NirvanaEatery/app/src/main/res/layout/activity_cart.xml" value="0.30526315789473685" />
+        <entry key="..\:/Application Development/Lernsy Projects/Lernsy Apps/AndroidStudio - Nirvana Food Ordering System/NirvanaEatery/app/src/main/res/layout/activity_receipt.xml" value="0.33" />
+        <entry key="..\:/Application Development/Lernsy Projects/Lernsy Apps/AndroidStudio - Nirvana Food Ordering System/NirvanaEatery/app/src/main/res/layout/profile_account_details.xml" value="0.1" />
+        <entry key="..\:/Application Development/Lernsy Projects/Lernsy Apps/AndroidStudio - Nirvana Food Ordering System/NirvanaEatery/app/src/main/res/layout/profile_purchases.xml" value="0.30526315789473685" />
+        <entry key="..\:/Application Development/Lernsy Projects/Lernsy Apps/AndroidStudio - Nirvana Food Ordering System/NirvanaEatery/app/src/main/res/layout/sub_pasta_side_dish.xml" value="0.30526315789473685" />
+        <entry key="..\:/Application Development/Lernsy Projects/Lernsy Apps/AndroidStudio - Nirvana Food Ordering System/NirvanaEatery/app/src/main/res/layout/viewholder_boughtgoods.xml" value="0.2" />
+        <entry key="..\:/Application Development/Lernsy Projects/Lernsy Apps/AndroidStudio - Nirvana Food Ordering System/NirvanaEatery/app/src/main/res/layout/viewholder_category.xml" value="0.30526315789473685" />
+        <entry key="..\:/Application Development/Lernsy Projects/Lernsy Apps/AndroidStudio - Nirvana Food Ordering System/NirvanaEatery/app/src/main/res/layout/viewholder_drinks.xml" value="0.30526315789473685" />
+        <entry key="..\:/Application Development/Lernsy Projects/Lernsy Apps/AndroidStudio - Nirvana Food Ordering System/NirvanaEatery/app/src/main/res/layout/viewholder_purchases.xml" value="0.30526315789473685" />
+        <entry key="..\:/Lernsy Developers/Lernsy Projects/Lernsy Android Apps/AndroidStudio - Nirvana Food Ordering System/NirvanaEatery/app/src/main/res/layout/activity_cart.xml" value="0.29981884057971014" />
+        <entry key="..\:/Lernsy Developers/Lernsy Projects/Lernsy Android Apps/AndroidStudio - Nirvana Food Ordering System/NirvanaEatery/app/src/main/res/layout/activity_food_details.xml" value="0.30526315789473685" />
+        <entry key="..\:/Lernsy Developers/Lernsy Projects/Lernsy Android Apps/AndroidStudio - Nirvana Food Ordering System/NirvanaEatery/app/src/main/res/layout/activity_get_started.xml" value="0.30526315789473685" />
+        <entry key="..\:/Lernsy Developers/Lernsy Projects/Lernsy Android Apps/AndroidStudio - Nirvana Food Ordering System/NirvanaEatery/app/src/main/res/layout/activity_login.xml" value="0.30526315789473685" />
+        <entry key="..\:/Lernsy Developers/Lernsy Projects/Lernsy Android Apps/AndroidStudio - Nirvana Food Ordering System/NirvanaEatery/app/src/main/res/layout/activity_receipt.xml" value="0.25" />
+        <entry key="..\:/Lernsy Developers/Lernsy Projects/Lernsy Android Apps/AndroidStudio - Nirvana Food Ordering System/NirvanaEatery/app/src/main/res/layout/activity_splash.xml" value="0.2807971014492754" />
+        <entry key="..\:/Lernsy Developers/Lernsy Projects/Lernsy Android Apps/AndroidStudio - Nirvana Food Ordering System/NirvanaEatery/app/src/main/res/layout/viewholder_boughtgoods.xml" value="0.30526315789473685" />
+        <entry key="..\:/Lernsy Developers/Lernsy Projects/Lernsy Android Apps/AndroidStudio - Nirvana Food Ordering System/NirvanaEatery/app/src/main/res/layout/viewholder_cart.xml" value="0.30526315789473685" />
+        <entry key="..\:/Lernsy Developers/Lernsy Projects/Lernsy Android Apps/AndroidStudio - Nirvana Food Ordering System/NirvanaEatery/app/src/main/res/layout/viewholder_menu.xml" value="0.30526315789473685" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable-v24/add_to_cart_bg.xml" value="0.347" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable-v24/cart_button_bg.xml" value="0.372" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable-v24/ic_bx_cart_2.xml" value="0.372" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable-v24/ic_bx_share_alt_1.xml" value="0.372" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable-v24/ic_cart.xml" value="0.347" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable-v24/ic_group_1675.xml" value="0.372" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable-v24/ic_group_400.xml" value="0.372" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable-v24/ic_group_401.xml" value="0.372" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable-v24/ic_heart.xml" value="0.372" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable-v24/ic_keyboard_arrow_left_black_24dp.xml" value="0.372" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.372" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable-v24/ic_location.xml" value="0.372" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable-v24/ic_location_on_black_24dp.xml" value="0.372" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable-v24/ic_notification.xml" value="0.372" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable-v24/ic_rectangle_344.xml" value="0.372" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable-v24/ic_search_black_24dp.xml" value="0.372" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable-v24/ic_short.xml" value="0.372" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable-v24/ic_star_black_24dp.xml" value="0.372" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable-v24/layout_bg.xml" value="0.372" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable-v24/search_bg.xml" value="0.372" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable-v24/star.xml" value="0.347" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable/card_background.xml" value="0.3005" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable/dark_grey_square_card.xml" value="0.3725" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable/green_button.xml" value="0.3005" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable/grey_border.xml" value="0.3005" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable/grey_card_background.xml" value="0.3005" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable/grey_card_topleft.xml" value="0.16" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable/grey_squar_card.xml" value="0.3715" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable/greyfilled_bottom.xml" value="0.1995" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable/half_card.xml" value="0.347" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable/halfcard_bottomright.xml" value="0.1985" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable/ic__0_gears_settings_double.xml" value="0.3005" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable/ic__0_minus_circle.xml" value="0.347" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable/ic__1_avatar.xml" value="0.3005" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable/ic__46_basket_trolley_shopping_card.xml" value="0.372" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable/ic__81_consultation.xml" value="0.372" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable/ic__9_plus_circle.xml" value="0.347" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable/intro_background.xml" value="0.3005" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable/main_menu_background.xml" value="0.347" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable/rounded_image_view.xml" value="0.1365" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/drawable/teal_background.xml" value="0.3715" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/font/be_vietnam.xml" value="0.40208333333333335" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/font/open_sans_bold.xml" value="0.3385964912280702" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_account.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_account_details.xml" value="0.3080568720379147" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_breakfast.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_cart.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_chapati_side_dish.xml" value="0.2182890855457227" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_complete_signing_up.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_drinks.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_fast_food.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_food_details.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_get_started.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_help.xml" value="0.15295629820051415" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_location_permission.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_main.xml" value="0.33061594202898553" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_main_menu.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_maps.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_non_alcoholic_drinks.xml" value="0.2182890855457227" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_otp_verification.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_pasta_side_dish.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_profile.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_rice_side_dish.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_show_detail.xml" value="0.5" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_snacks.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_splash_screen.xml" value="0.33061594202898553" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_support.xml" value="0.21288515406162464" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_track_order.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/activity_ugali_side_dish.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/category_breakfast.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/category_drinks.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/category_fast_food.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/category_heavy_meals.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/category_snacks.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/get_started.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/heavy_meals_activity.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/menu.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/menu_viewholder.xml" value="0.67" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/popular.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/profile_account_details.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/profile_purchases.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/profile_wallet.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/purchase_dialogue.xml" value="0.3043859649122807" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/rounded_image.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/sub_chapati_side_dish.xml" value="0.2182890855457227" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/sub_hot_drinks.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/sub_non_alcoholic_drinks.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/sub_pasta_side_dish.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/sub_rice_side_dish.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/sub_soft_drinks.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/sub_ugali_side_dish.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/trial.xml" value="0.312280701754386" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/viewfolder_purchases.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/viewholder_all_menu.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/viewholder_cart.xml" value="0.5" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/viewholder_category.xml" value="0.3268206039076377" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/viewholder_drinks.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/viewholder_menu.xml" value="0.5" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/viewholder_popular.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/viewholder_purchases.xml" value="0.30526315789473685" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NirvanaEatery/app/src/main/res/layout/viewholder_sides.xml" value="0.3131578947368421" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
