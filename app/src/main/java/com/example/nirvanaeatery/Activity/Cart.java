@@ -124,7 +124,7 @@ public class Cart extends AppCompatActivity {
         DeliveryFeeTxt.setText("KES " + delivery);
         TotalFeeTxt.setText("KES " + Amount);
 
-        ETA.setText("Cooking Time: " + Time + " Mins" );
+        ETA.setText(Time + " Mins" );
 
 //Button Response for TrackOrder Page Open
         constraintLayout.setOnClickListener(new View.OnClickListener() {

@@ -50,9 +50,8 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
         NumberFormat numberFormat=NumberFormat.getCurrencyInstance(locale);
 
         holder.title.setText(listSelectedFood.get(position).getTitle());
-        holder.eachItemFee.setText(String.valueOf(numberFormat.format(listSelectedFood.get(position).getFee())));
         holder.eachItemTotal.setText(numberFormat.format(Math.round(listSelectedFood.get(position).getNumberInCart() * listSelectedFood.get(position).getFee())));
-        holder.numberItem.setText(String.valueOf(listSelectedFood.get(position).getNumberInCart()));
+        holder.numberItem.setText(String.valueOf(listSelectedFood.get(position).getNumberInCart()) + " X");
 
 
     int drawableResourceId=holder.itemView.getContext().getResources()
@@ -115,7 +114,6 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
     public class ViewHolder extends RecyclerView.ViewHolder {
         TextView title;
         ImageView picture;
-        TextView eachItemFee;
         TextView numberItem;
         TextView eachItemTotal;
         ImageView AddBtn, MinusBtn, Delete;
@@ -127,7 +125,6 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
     //Declaring the variables in ViewHolder
         title=itemView.findViewById(R.id.CartName);
         picture=itemView.findViewById(R.id.CategoryImage);
-        eachItemFee=itemView.findViewById(R.id.EachItemFee);
         numberItem=itemView.findViewById(R.id.numberItemTxt);
         eachItemTotal=itemView.findViewById(R.id.EachItemTotal);
         AddBtn=itemView.findViewById(R.id.plusCartBtn);

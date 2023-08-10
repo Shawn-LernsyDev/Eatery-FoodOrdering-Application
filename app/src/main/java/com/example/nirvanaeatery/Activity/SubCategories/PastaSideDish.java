@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -13,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.nirvanaeatery.Activity.Account;
 import com.example.nirvanaeatery.Activity.Cart;
+import com.example.nirvanaeatery.Activity.Cartegories.Heavy_Meals;
 import com.example.nirvanaeatery.Activity.MainMenu;
 import com.example.nirvanaeatery.Activity.Purchases;
 import com.example.nirvanaeatery.Activity.Support;
@@ -27,6 +29,7 @@ public class PastaSideDish extends AppCompatActivity {
     RecyclerView.Adapter adapter;
     RecyclerView recyclerViewPastaMeals;
     private String Id;
+    ImageView Back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,67 +49,15 @@ public class PastaSideDish extends AppCompatActivity {
     }
 
     private void bottomNavigationView() {
-        LinearLayout homeBtn = findViewById(R.id.homeBtn);
-        LinearLayout ProfileBtn = findViewById(R.id.ProfileBtn);
-        LinearLayout cartBtn = findViewById(R.id.cartBtn);
-        LinearLayout SupportBtn = findViewById(R.id.SupportBtn);
-        LinearLayout TrackOrderBtn = findViewById(R.id.TrackOrderBtn);
-
-
-
-
-//Button Response for MainMenu button
-        homeBtn.setOnClickListener(new View.OnClickListener() {
+        Back = findViewById(R.id.backbtn);
+        Back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(PastaSideDish.this, MainMenu.class);
-                intent.putExtra("Phone",Id);
+                Intent intent = new Intent(getApplicationContext(), Heavy_Meals.class);
+                intent.putExtra("PhoneNo", Id);
                 startActivity(intent);
             }
         });
-
-//Button Response for Profile button
-        ProfileBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(PastaSideDish.this, Account.class);
-                intent.putExtra("PhoneNo",Id);
-                startActivity(intent);
-            }
-        });
-
-//Button Response for Cart Button
-        cartBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(PastaSideDish.this, Cart.class);
-                intent.putExtra("PhoneNo",Id);
-                startActivity(intent);
-            }
-        });
-
-//Button Response for Support Button
-        SupportBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(PastaSideDish.this, Support.class);
-                intent.putExtra("PhoneNo",Id);
-                startActivity(intent);
-            }
-        });
-
-//Button Response for TrackOrder Button
-        TrackOrderBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(PastaSideDish.this, Purchases.class);
-                intent.putExtra("PhoneNo",Id);
-                startActivity(intent);
-            }
-        });
-
-
-
     }
 
 

@@ -34,7 +34,7 @@
     <string name="taxTxt">Service Fee</string>
     <string name="totalTxt">TOTAL</string>
     <string name="place_orderTxt">Place Order</string>
-    <string name="my_cart">Cart</string>
+    <string name="my_cart">My \nOrder</string>
     <string name="subTotalFeeTxt">KES  0.00</string>
     <string name="DeliveryFeeTxt">KES  0.00</string>
     <string name="taxFeeTxt">KES  0.00</string>
@@ -43,7 +43,7 @@
     <string name="CartName">CartName</string>
     <string name="EachItemFee">KES 0</string>
     <string name="EachItemTotal">KES 0</string>
-    <string name="numberItemTxt">1</string>
+    <string name="numberItemTxt">1 X</string>
     <string name="Detail_price">KES 0</string>
     <string name="prep_minutesTxt">35min</string>
 

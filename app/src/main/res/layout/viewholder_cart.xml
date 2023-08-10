@@ -4,32 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_layout"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="6dp">
+    android:layout_height="wrap_content">
 
     <TextView
         android:id="@+id/EachItemTotal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:text="@string/EachItemTotal"
-        android:textSize="12sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/plusCartBtn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/plusCartBtn" />
-
-    <TextView
-        android:id="@+id/EachItemFee"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
         android:fontFamily="@font/be_vietnam"
         android:text="@string/EachItemFee"
-        android:textColor="#1DE9B6"
-        app:layout_constraintBottom_toBottomOf="@+id/CartName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/CartName"
+        app:layout_constraintEnd_toEndOf="@+id/CartName"
+        app:layout_constraintStart_toStartOf="@+id/CartName"
+        app:layout_constraintTop_toTopOf="@+id/numberItemTxt"
         tools:ignore="TextContrastCheck" />
 
     <TextView
@@ -37,12 +22,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
         android:fontFamily="@font/be_vietnam"
         android:text="@string/CartName"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/detailsCardView"
-        app:layout_constraintTop_toTopOf="@+id/detailsCardView"
+        app:layout_constraintBottom_toBottomOf="@+id/plusCartBtn"
+        app:layout_constraintStart_toEndOf="@+id/plusCartBtn"
+        app:layout_constraintTop_toTopOf="@+id/plusCartBtn"
+        app:layout_constraintVertical_bias="0.512"
         tools:ignore="TextContrastCheck" />
 
     <androidx.cardview.widget.CardView
@@ -71,43 +57,47 @@
 
     <ImageView
         android:id="@+id/minusCartBtn"
-        android:layout_width="22dp"
-        android:layout_height="20dp"
-        android:layout_marginTop="2dp"
-        app:layout_constraintStart_toStartOf="@+id/CartName"
-        app:layout_constraintTop_toBottomOf="@+id/CartName"
-        app:srcCompat="@drawable/ic__0_minus_circle"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/detailsCardView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.493"
+        app:srcCompat="@drawable/minus"
         tools:ignore="ContentDescription,ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/plusCartBtn"
-        android:layout_width="22dp"
-        android:layout_height="20dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="2dp"
-        app:layout_constraintStart_toEndOf="@+id/numberItemTxt"
-        app:layout_constraintTop_toBottomOf="@+id/CartName"
-        app:srcCompat="@drawable/ic__9_plus_circle"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/minusCartBtn"
+        app:layout_constraintStart_toEndOf="@+id/minusCartBtn"
+        app:layout_constraintTop_toTopOf="@+id/minusCartBtn"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/plus"
         tools:ignore="ContentDescription" />
 
     <TextView
         android:id="@+id/numberItemTxt"
-        android:layout_width="wrap_content"
+        android:layout_width="30dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
         android:text="@string/numberItemTxt"
-        app:layout_constraintStart_toEndOf="@+id/minusCartBtn"
-        app:layout_constraintTop_toBottomOf="@+id/CartName" />
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/plusCartBtn"
+        app:layout_constraintStart_toStartOf="@+id/minusCartBtn" />
 
     <ImageView
         android:id="@+id/delete"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="@+id/numberItemTxt"
-        app:layout_constraintStart_toStartOf="@+id/numberItemTxt"
-        app:layout_constraintTop_toBottomOf="@+id/numberItemTxt"
-        app:srcCompat="@drawable/ic_trash" />
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/detailsCardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/detailsCardView"
+        app:srcCompat="@drawable/delete" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

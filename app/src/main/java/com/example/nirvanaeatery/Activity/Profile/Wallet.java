@@ -23,17 +23,15 @@ public class Wallet extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.profile_wallet);
 
-        Back = findViewById(R.id.backbtn);
 
 
         getIntentBundle();
 
+        Back = findViewById(R.id.backbtn);
         Back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Wallet.this, Account.class);
-                intent.putExtra("PhoneNo", Id);
-                startActivity(intent);
+                onBackPressed();
             }
         });
 
