@@ -3,6 +3,7 @@ package com.example.nirvanaeatery.Activity.Profile;
 import static android.content.ContentValues.TAG;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -38,7 +39,8 @@ import com.squareup.picasso.Picasso;
 
 public class AccountDetails extends AppCompatActivity {
 
-    //Declaring Variables
+    //Declaring Variable
+    SharedPreferences sharedPreferences;
     private static final int GALLERY_CODE = 1;
     ImageView ProfilePic, Back;
     TextView firstName;
@@ -71,6 +73,8 @@ public class AccountDetails extends AppCompatActivity {
 //Get intentPutExtra from previous page and set it as the Phone Number
         PhoneNo = getIntent().getStringExtra("PhoneNumber");
         PhoneNumber.setText(PhoneNo);
+
+
 
 //Calling the method getAccountDetails to be operational
         getAccountDetails();
@@ -114,7 +118,7 @@ public class AccountDetails extends AppCompatActivity {
         database = FirebaseDatabase.getInstance();
 
         //Getting Reference of the Table User that exist in the database
-        databaseReference = database.getReference("User");
+        databaseReference = database.getReference("Users");
 
         //Add value event listener is used to add or update things on the firebase database
         databaseReference.addValueEventListener(new ValueEventListener() {
@@ -197,8 +201,8 @@ public class AccountDetails extends AppCompatActivity {
 
         String Name = FirstName + " " + LastName;
 
-        final StorageReference filepath = FirebaseStorage.getInstance().getReference("User")
-                .child(Name + Timestamp.now().getSeconds());
+        final StorageReference filepath = FirebaseStorage.getInstance().getReference("Profiles")
+                .child(Name + ": " + Timestamp.now().getSeconds());
 
 
         progressBar.setVisibility(View.VISIBLE);
@@ -247,7 +251,7 @@ public class AccountDetails extends AppCompatActivity {
                                         Toast.makeText(AccountDetails.this, "Profile Updated", Toast.LENGTH_SHORT).show();
                                         startActivity(intent);
 
-                                        databaseReference.child(Number).setValue(Profile)
+                                        databaseReference.child(Name + " - " + Number).setValue(Profile)
                                                 .addOnFailureListener(new OnFailureListener() {
                                                     @Override
                                                     public void onFailure(@NonNull Exception e) {
@@ -294,15 +298,15 @@ public class AccountDetails extends AppCompatActivity {
 
 
         database = FirebaseDatabase.getInstance();
-        databaseReference = database.getReference("User");
+        databaseReference = database.getReference("Users");
 
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
 
                 String ImageUrl = snapshot.child("imageUrl").getValue(String.class);
-                for (DataSnapshot DS : snapshot.getChildren()) {
 
+                for (DataSnapshot DS : snapshot.getChildren()) {
                     if (DS.child("phoneNumber").getValue().equals(PhoneNo)){
 
                         imageUrl[0] = DS.child("imageUrl").getValue(String.class);

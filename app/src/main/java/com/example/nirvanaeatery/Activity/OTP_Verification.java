@@ -23,6 +23,9 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthOptions;
 import com.google.firebase.auth.PhoneAuthProvider;
+import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
+import com.google.firebase.auth.FirebaseAuthException;
+
 
 import java.util.concurrent.TimeUnit;
 
@@ -135,16 +138,23 @@ public class OTP_Verification extends AppCompatActivity {
                         VerifyCode(Code);
                     }
                 }
+// ...
 
                 @Override
                 public void onVerificationFailed(@NonNull FirebaseException e) {
-
                     AccessBar.setVisibility(View.GONE);
                     Verify.setVisibility(View.VISIBLE);
-                    //Toast.makeText(OTP_Verification.this, e.getMessage(), Toast.LENGTH_SHORT).show();
-                    Toast.makeText(OTP_Verification.this, "Try Again, Check if internet connection is on", Toast.LENGTH_SHORT).show();
 
+                    if (e instanceof FirebaseAuthInvalidCredentialsException) {
+                        Toast.makeText(OTP_Verification.this, "Invalid phone number format", Toast.LENGTH_SHORT).show();
+                    } else if (e instanceof FirebaseAuthException) {
+                        // Use a more general exception message
+                        Toast.makeText(OTP_Verification.this, "Authentication error. Please try again later.", Toast.LENGTH_SHORT).show();
+                    } else {
+                        Toast.makeText(OTP_Verification.this, "Verification failed. Check your internet connection.", Toast.LENGTH_SHORT).show();
+                    }
                 }
+
             };
 
     private void VerifyCode(String code){

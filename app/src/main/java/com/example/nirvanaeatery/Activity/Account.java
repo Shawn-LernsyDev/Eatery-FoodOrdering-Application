@@ -75,7 +75,7 @@ public class Account extends AppCompatActivity {
 //Retrieving data from the Profile Database to set them as Account Details
 
         database = FirebaseDatabase.getInstance();
-        databaseReference = database.getReference("User");
+        databaseReference = database.getReference("Users");
 
 
         databaseReference.addValueEventListener(new ValueEventListener() {
