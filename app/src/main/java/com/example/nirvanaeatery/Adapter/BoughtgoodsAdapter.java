@@ -34,8 +34,8 @@ public class BoughtgoodsAdapter extends RecyclerView.Adapter<BoughtgoodsAdapter.
 
         FoodDomain food = mReceiptItems.get(position);
         holder.mItemName.setText(food.getTitle());
-        holder.mItemQuantity.setText(String.valueOf(food.getNumberInCart()));
-        holder.mItemPrice.setText("KES" + String.valueOf(food.getFee()));
+        holder.mItemQuantity.setText(String.valueOf(food.getNumberInCart()) + " X");
+        holder.mItemPrice.setText("KES "+ String.valueOf(food.getFee()));
 
     }
 

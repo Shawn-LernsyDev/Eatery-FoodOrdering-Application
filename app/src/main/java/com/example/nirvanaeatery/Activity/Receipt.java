@@ -129,7 +129,7 @@ public class Receipt extends AppCompatActivity {
                                 taxFee.setText("KES " + ServiceFee);
                                 Total.setText("KES " + FEE);
 
-                                amount.setText("Paid: " + "KES" + FEE);
+                                amount.setText("Paid: " + "KES " + FEE);
 
                                 Message.setText("Thanks for ordering, " + object.getName());
                             }
