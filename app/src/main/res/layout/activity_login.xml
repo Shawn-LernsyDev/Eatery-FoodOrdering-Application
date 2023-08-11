@@ -93,6 +93,7 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="28dp"
+        android:gravity="center"
         android:text="@string/T_Cs"
         android:textColor="@android:color/tertiary_text_dark"
         android:textSize="11sp"

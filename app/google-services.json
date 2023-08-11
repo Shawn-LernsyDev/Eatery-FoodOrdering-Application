@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "151084356473",
+    "firebase_url": "https://nirvana-eatery-default-rtdb.firebaseio.com",
+    "project_id": "nirvana-eatery",
+    "storage_bucket": "nirvana-eatery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151084356473:android:9564b653c93d3b1a7815a8",
+        "android_client_info": {
+          "package_name": "com.example.nirvanaeatery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151084356473-vg2h9km8394phgjk27ltinc9mvnc9pvo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nirvanaeatery",
+            "certificate_hash": "940b57d159ea9046d9850baea99e166465ce5ec3"
+          }
+        },
+        {
+          "client_id": "151084356473-7oivat3qqvl54gc759gmve11jbs1k72h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlDV8YqQ5B4cc04CQ0gAsmoGuMSyJkxoU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151084356473-7oivat3qqvl54gc759gmve11jbs1k72h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -298,7 +298,7 @@ public class OTP_Verification extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable editable) {
                 if(!editable.toString().trim().isEmpty()){
-                    input_code1.requestFocus();
+                    Verify.requestFocus();
                 }
             }
         });

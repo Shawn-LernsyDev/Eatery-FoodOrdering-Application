@@ -46,7 +46,7 @@ public class Get_Started extends AppCompatActivity {
             public void onClick(View view) {
 
                 //Intent the button to respond
-                    Intent intent = new Intent(Get_Started.this, MainMenu.class);
+                    Intent intent = new Intent(Get_Started.this, LoginActivity.class);
                     startActivity(intent);
 
             }

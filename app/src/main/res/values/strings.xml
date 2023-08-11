@@ -7,7 +7,7 @@
     <string name="mobile_number">Enter Mobile Number</string>
 
     <string name="didn_t_receive_otp">Didn\'t receive OTP ?</string>
-    <string name="enter_the_otp_4_digit_code_sent_to_your_number">Enter the OTP 4-digit code sent to</string>
+    <string name="enter_the_otp_4_digit_code_sent_to_your_number">Enter the 6-digit OTP code sent to</string>
     <string name="resend_otp">Resend OTP</string>
     <string name="verify">Verify</string>
 

@@ -16,6 +16,9 @@ import com.example.nirvanaeatery.R;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Complete_SigningUp extends AppCompatActivity {
 
 //Declaring variables
@@ -42,9 +45,6 @@ public class Complete_SigningUp extends AppCompatActivity {
 //Calling getIntentBundle Method and setting data stored in PhoneNo variable as Contact which is the Phonenumber
         getIntentBundle();
         Contact.setText(PhoneNo);
-
-        //Accessing the Firebase Database Class and Instantiate by getting Reference Path
-        userDatabase = myDatabase.getInstance().getReference("User");
 
 
 //Set OnClickListener for the Done Button
@@ -91,12 +91,25 @@ public class Complete_SigningUp extends AppCompatActivity {
 //Saving Account Details on Firebase Real Time Database
             if( !(email.isEmpty() || lastName.isEmpty() || firstName.isEmpty())){
 
-                //String id = userDatabase.push().getKey(); //Random key By the Database
 
-    //Constructing the Object by connecting it to the class using the class constructor
-                UserDomain User = new UserDomain(firstName, lastName, email, phoneNumber,imageUrl);
-                //We set the Primary Key as the Phone Number for the 'User' Table
-                userDatabase.child(phoneNumber).setValue(User);
+                //Accessing the Firebase Database Class and Instantiate by getting Reference Path
+                userDatabase = myDatabase.getInstance().getReference("Users");
+
+                // Generate a unique key for the new order
+                String orderKey = userDatabase.child( Name + " - " + phoneNumber).getKey();
+
+                // Create a map to store the order details
+                Map<String, Object> orderMap = new HashMap<>();
+                orderMap.put("firstName", firstName);
+                orderMap.put("lastName", lastName);
+                orderMap.put("email", email);
+                orderMap.put("phoneNumber", phoneNumber);
+                orderMap.put("imageUrl", imageUrl);
+
+                Toast.makeText(this, "user almost added", Toast.LENGTH_SHORT).show();
+                // Add the order to the "orders" node in the Firebase Realtime Database
+                userDatabase.child(orderKey).setValue(orderMap);
+
 
                 Intent intent= new Intent(Complete_SigningUp.this,MainMenu.class);
                 intent.putExtra("Phone",PhoneNo);
